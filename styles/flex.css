@@ -44,6 +44,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center; 
+    border: 2px solid black;
 }
 
 .flex-container {
@@ -63,23 +64,25 @@
 
 #div1 {
     flex: 1;
-    justify-content: space-around;
+    border: 1px solid black;
 }
 
 #div2 {
     flex: 1;
     flex-direction: column;
     justify-content:center;
+    border: 2px solid black;
 }
 
 #div3 {
     flex: 5;
-    justify-content: center;
+    border: 2px solid black;
 }
 
 #div4 {
     flex: 16;
     justify-content: start;
+    border: 2px solid black;
 }
 
 #div5 {
@@ -87,10 +90,12 @@
     justify-content: space-around;
     flex-direction: row; 
     font-size: 20px;
+    border: 2px solid black;
 }
 
 #div6 {
     flex: 4;
     justify-content: flex-end;
     flex-direction: column; 
+    border: 1px solid black;
 }

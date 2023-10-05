@@ -6,27 +6,28 @@
 
 .header{
     grid-area: 1/1/2/4;
-    display: flex;
     align-items: center;
-    justify-content: flex-end; 
     border: 1px solid black;
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer{
     grid-area: 5/1/6/4;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    border: 2px solid black;
     padding: 30px;
-    border: 1px solid black;
+    justify-content: space-between;
 }
+
 
 .menu{
     grid-area: 2/1/5/2;
     display: flex;
     align-items: center;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 body {
@@ -42,6 +43,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 30px;
+    border: 2px solid black;
 }
 
 .main_sector{
@@ -49,7 +51,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 30px;
     font-size: 20px;
     text-align: center;
@@ -60,7 +62,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 2px solid black;
     font-size: 20px;
 }
 
@@ -70,6 +72,7 @@ body {
     align-items: center;
     justify-content: flex-end;
     padding: 30px;
+    border: 2px solid black;
 }
 
 .text-box {
@@ -79,16 +82,7 @@ body {
     text-align: left;
     display: flex;
     justify-content: center;
-    align-items: center;
-    float: left;
-}
-
-.right{
-    margin-right: 50%;
-}
-
-.left{
-    margin-left: 50%;
+    align-items: flex-start;
 }
 
 .image-container img {
@@ -99,5 +93,4 @@ body {
     width: 65%; 
     border: none; 
     display: inline-block; 
-
 }

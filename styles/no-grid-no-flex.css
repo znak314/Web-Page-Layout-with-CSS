@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
 }
+
 #div1{
     position: absolute;
     top: 0;
@@ -18,6 +19,8 @@
 
 
 .columns {
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     columns: 2;
     top: 50%;
@@ -33,6 +36,7 @@
     width: auto;
     height: auto;
     text-align: center;
+    border: 2px solid black;
 }
 
 #div2 {
@@ -41,6 +45,7 @@
     left: 0%;
     width: 25%;
     height: 60%;
+    border: 2px solid black;
 }
 
 #div3{
@@ -52,6 +57,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    border: 2px solid black;
 }
 
 .menu {
@@ -68,12 +74,13 @@
     left: 25%;
     width: 50%;
     height: 40%;
-    align-items: center; /* Центрирование по вертикали */
+    border: 2px solid black;
 }
 
 #div4 img {
     width: 100%;
     height: auto; 
+    border: 2px solid black;
 }
 
 #div5{
@@ -85,6 +92,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;
+    border: 2px solid black;
 }
 
 
@@ -97,20 +105,15 @@
     display: flex;
     align-items: center;
     text-align: center;
+    border: 2px solid black;
 }
 
-#div6{
-    position: absolute;
-    top: 70%;
-    left: 25%;
-    width: 50%;
-    height: 10%;
-}
+
 
 #div7{
     position: absolute;
     top: 80%;
     width: 100%;
     height: 20%;
-
+    border: 2px solid black;
 }
